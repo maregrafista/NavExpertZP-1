@@ -1,13 +1,13 @@
 {
  "name": "NavExpertZP-1",
  "short_name": "NavExpert",
- "description": "Per\u00edcia da navega\u00e7\u00e3o do AmEx sobre cartas n\u00e1uticas",
+ "description": "Perícia da navegação do AmEx sobre cartas náuticas",
  "start_url": "./index.html",
  "scope": "./",
  "display": "standalone",
  "orientation": "any",
- "background_color": "#f5f6f8",
- "theme_color": "#0b3d5c",
+ "background_color": "#f4f6f9",
+ "theme_color": "#0b1f4d",
  "lang": "pt-BR",
  "icons": [
   {
@@ -27,6 +27,16 @@
    "sizes": "512x512",
    "type": "image/png",
    "purpose": "maskable"
+  },
+  {
+   "src": "icon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
   }
+ ],
+ "id": "./",
+ "categories": [
+  "navigation",
+  "utilities"
  ]
 }
